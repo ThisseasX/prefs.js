@@ -1,0 +1,34 @@
+{
+  "name": "prefs",
+  "version": "1.0.0",
+  "description": "Easy-to-use library providing a simple interface for saving and retrieving key-value pairs in JSON format.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThisseasX/prefs.js.git"
+  },
+  "keywords": [
+    "prefs",
+    "preferences",
+    "key-value",
+    "store",
+    "options",
+    "config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "ThisseasX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThisseasX/prefs.js/issues"
+  },
+  "homepage": "https://github.com/ThisseasX/prefs.js#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
