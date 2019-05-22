@@ -10,7 +10,7 @@ An easy-to-use library providing a simple interface for saving and retrieving ke
 const { load, add, remove, clear } = require('prefs');
 ```
 
-The entire library consists of those 4 methods.
+Those 4 functions are all you need.
 
 ### Add a preference
 ```js
