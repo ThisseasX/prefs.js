@@ -124,8 +124,6 @@ function Prefs(configPath) {
      * @api public
      */
     this.load = function () {
-        console.log(PREFERENCES_PATH);
-        console.log(BACKUP_PATH);
         return read(PREFERENCES_PATH);
     }.bind(this);
 
