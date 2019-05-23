@@ -3,7 +3,6 @@
   "version": "1.0.3",
   "description": "Easy-to-use library providing a simple interface for saving and retrieving key-value pairs in JSON format.",
   "main": "index.js",
-  "types": "index.d.ts",
   "scripts": {
     "test": "mocha"
   },
@@ -30,5 +29,8 @@
   "homepage": "https://github.com/ThisseasX/prefs.js#readme",
   "devDependencies": {
     "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
   }
 }
