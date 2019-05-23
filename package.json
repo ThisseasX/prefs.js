@@ -1,6 +1,6 @@
 {
   "name": "prefs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy-to-use library providing a simple interface for saving and retrieving key-value pairs in JSON format.",
   "main": "index.js",
   "types": "index.d.ts",
