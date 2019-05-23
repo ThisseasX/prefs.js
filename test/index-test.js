@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const { load, add, remove, clear } = require('../index');
 
-const PREFERENCES_PATH = path.join(path.resolve(__dirname, '..'), 'preferences.json');
-const BACKUP_PATH = path.join(path.resolve(__dirname, '..'), 'preferences-backup.json');
+const PREFERENCES_PATH = path.join(path.dirname(require.main.filename), 'preferences.json');
+const BACKUP_PATH = path.join(path.dirname(require.main.filename), 'preferences-backup.json');
 
 describe('prefs', () => {
 
