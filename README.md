@@ -7,10 +7,20 @@ An easy-to-use library providing a simple interface for saving and retrieving ke
     
 ## Usage
 ```js
-const { load, add, remove, clear } = require('prefs')(configFolderPath);
+const prefs = require('prefs');
+const { load, add, remove, clear } = prefs('./path/to/config');
+
+// or in a shorter way
+
+const { load, add, remove, clear } = require('prefs')('./path/to/config');
 ```
 
-The `configFolderPath` is the path where a `/config` directory will be created, containing the preference files.
+To start using `prefs`, you need to specify a path where the `/config` directory will be created, containing the preference files.
+
+e.g.
+```js
+const { load, add, remove, clear } = require('prefs')(__dirname);
+```
 
 ### Add a preference
 ```js
