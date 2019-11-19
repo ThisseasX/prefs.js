@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/ThisseasX/prefs.js#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^6.2.2"
   }
 }
